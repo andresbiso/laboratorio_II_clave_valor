@@ -44,7 +44,9 @@ const server = http.createServer(function (request, response) { // The server
                 key_types[key] = type;
                 if (pos === all_keys.length - 1) { // callbacks all run in order
                     console.dir(key_types,  { depth: null });
-                    //console.log(key_types);
+                    // This will give you the output to list all the keys and their types
+                    // { ip: 'hash', requests: 'string', '': 'hash' }
+                    // console.log(key_types);
                 }
             });
         });
