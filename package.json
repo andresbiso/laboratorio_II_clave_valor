@@ -1,0 +1,19 @@
+{
+  "name": "nodejs-redis-memurai",
+  "version": "0.0.1",
+  "description": "A simple http server in Redis/Memurai on windows",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/newwuhan5/nodejs-redis-memurai.git"
+  },
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "jess --watchAll "
+  },
+  "dependencies": {
+    "ip": "^1.1.5",
+    "ip-address": "^6.4.0",
+    "redis": "^3.0.2"
+  }
+}
