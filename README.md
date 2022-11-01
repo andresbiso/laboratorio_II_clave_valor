@@ -50,6 +50,7 @@ npm install
 
 # :question: Comentarios <a name = "comments"></a>
 
+## Git
 - Debemos tener instalado Git para poder clonar este repositorio:
 [git](https://community.chocolatey.org/packages/git/)
 ```
@@ -60,10 +61,15 @@ choco install git
 - Default Host: 127.0.0.1
 - Default Port: 6379
 
+## Cómo interactuar con memurai-cli
+Dado a que memurai es compatible con los comandos de redis-cli podemos utilizar la documentación oficial de este último:
+https://redis.io/docs/manual/cli/
+
 # :speech_balloon: Autores <a name = "authors"></a>
 - Grupo 2
 
 # :tada: Reconocimientos <a name = "acknowledgement"></a>
-- https://github.com/newwuhan5/nodejs-redis-memurai
+- https://github.com/newwuhan5/nodejs-redis-memurai -> creador del repositorio base
+- https://www.sitepoint.com/using-redis-node-js/ -> creador de los ejemplos aquí expuestos
 - https://github.com/github/gitignore
 - https://gist.github.com/rxaviers/7360908
