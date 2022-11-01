@@ -1,42 +1,69 @@
-# nodejs-redis-memurai
+<p align="center">
+    Trabajo Práctico - Clave Valor - Laboratorio II - UP
+    <br>
+    2C - 2022
+    <br>
+</p>
 
-Using node.js and redis APIs with instructions on windows Memurai
+# :pencil: Table of Contents
+- [Acerca De](#about)
+- [Levantar Proyecto](#run_project)
+- [Herramientas Utilizadas](#built_using)
+- [Comentarios](#comments)
+- [Autores](#authors)
+- [Reconocimientos](#acknowledgement)
 
-## Prerequisites
+# :information_source: Acerca De <a name = "about"></a>
+- Repositorio que contiene el trabajo práctico de clave valor de la materia Laboratorio II.
 
-- Make sure that you have git installed on your windows machine
+# :wrench: Levantar Proyecto <a name = "run_project"></a>
 
-- Install latest version of Memurai, which runs on windows.  Memurai is a windows standalone Redis
+## Base de Datos
+- Ir a ```C:\Program Files\Memurai``` y ejecutar el archivo **memurai-cli.exe**
 
-- <https://www.memurai.com/> contains details of information
+## Cliente
+1. Abrir una terminal
+2. Dirigirse a la ruta de este proyecto
+3. Correr el siguiente comando: ```node [archivo.js]```
 
-- Make sure you have installed node.js and npm
+# :hammer: Herramientas Utilizadas <a name = "built_using"></a>
 
-- On console, confirm that node and npm installed correctly
+## Herramientas
+Recomendamos utilizar [chocolatey](https://chocolatey.org/install) para instalar estos paquetes:
 
-PS C:\source_all\github\nodejs-redis-memurai>
-
-```cmd
-node –v
+- [memurai-developer](https://community.chocolatey.org/packages/memurai-developer/) -> v2.0.7
+```
+choco install memurai-developer --version 2.0.7
+```
+- [nodejs-lts](https://community.chocolatey.org/packages/nodejs-lts) -> v16.18.0
+```
+choco install nodejs-lts --version 16.18.0
 ```
 
-v12.18.3
+## Paquetes npm
+Recomendamos utilizar la versión de npm que viene incluído en la versión de nodejs LTS (v16.18.0) para instalar los siguientes paquetes:
 
-```cmd
-npm -v
+- Los paquetes utilizados se encuentran en el archivo package.json y pueden ser instalados localmente al proyecto con el comando:
 ```
-
-6.14.8
-
-## Getting Started
-
-Download source:
-
-```cmd
-git clone https://github.com/newwuhan5/nodejs-redis-memurai.git
-
-cd nodejs-redis-memurai
-
 npm install
 ```
 
+# :question: Comentarios <a name = "comments"></a>
+
+- Debemos tener instalado Git para poder clonar este repositorio:
+[git](https://community.chocolatey.org/packages/git/)
+```
+choco install git
+```
+
+## Memurai
+- Default Host: 127.0.0.1
+- Default Port: 6379
+
+# :speech_balloon: Autores <a name = "authors"></a>
+- Grupo 2
+
+# :tada: Reconocimientos <a name = "acknowledgement"></a>
+- https://github.com/newwuhan5/nodejs-redis-memurai
+- https://github.com/github/gitignore
+- https://gist.github.com/rxaviers/7360908
