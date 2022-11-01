@@ -25,6 +25,16 @@
 1. Abrir una terminal
 2. Dirigirse a la ruta de este proyecto
 3. Correr el siguiente comando: ```node [archivo.js]```
+o
+Podemos correr alguno de los scripts ya creados en pacakge.json:
+``` npm run [script] ```
+
+### Scripts npm
+- "start:server"
+- "start:app"
+- "start:cache"
+- "start:publisher"
+- "start:session"
 
 # :hammer: Herramientas Utilizadas <a name = "built_using"></a>
 
