@@ -1,15 +1,14 @@
 {
-  "name": "nodejs-redis-memurai",
-  "version": "0.0.1",
-  "description": "A simple http server in Redis/Memurai on windows",
+  "name": "laboratorio_ii_clave_valor",
+  "version": "1.0.0",
+  "description": "Servidor HTTP en Redis/Memurai para windows",
   "repository": {
     "type": "git",
-    "url": "https://github.com/newwuhan5/nodejs-redis-memurai.git"
+    "url": "https://github.com/andresbiso/laboratorio_II_clave_valor.git"
   },
   "license": "MIT",
   "scripts": {
-    "start": "node src/server.js",
-    "test": "jess --watchAll "
+    "start": "node src/server.js"
   },
   "dependencies": {
     "ip": "^1.1.5",
