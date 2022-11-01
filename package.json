@@ -8,8 +8,11 @@
   },
   "license": "MIT",
   "scripts": {
-    "start": "node src/server.js",
-    "start:app": "node src/app.js"
+    "start:server": "node src/server.js",
+    "start:app": "node src/app.js",
+    "start:cache": "node src/caching.js",
+    "start:publisher": "node src/publisher.js",
+    "start:session": "node src/session.js"
   },
   "dependencies": {
     "ip": "^1.1.5",
